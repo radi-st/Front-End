@@ -1,0 +1,94 @@
+html{
+    height:100%;
+}
+body {
+    font-size: 16px;
+    background: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
+    height:100%;
+    margin:0;
+    
+}
+
+
+.inside-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    
+}
+
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+.login-section {
+    background-color: white;
+    max-width: 32rem;
+    width: 90%;
+    padding: 2.5rem;
+    border-radius: 7px;
+    margin: 15px;
+
+}
+
+.login-text {
+    color: #848692;
+    font-size:1.2rem;
+}
+
+.flutter-name {
+    font-size: 2rem;
+}
+
+input[type="text"],input[type="password"] {
+    border: none;
+    border-bottom: 2px solid lavender;
+    width: 100%;
+    padding:1rem;
+    padding-left: 0;
+}
+
+input:focus {
+    outline: none;
+    border-bottom-color: blue;
+}
+
+.form {
+    margin-top: 2.5rem;
+}
+.input-boxes{
+    margin-bottom:2rem;
+}
+
+input[type="submit"] {
+    max-width: 10rem;
+    width:10rem;
+    height: 2.5rem;
+    border-radius: 2.5rem;
+    background-color:rgb(84,189,214);
+    color: white;
+    border-style: none;
+    margin-bottom: 1rem;
+}
+
+a{
+    color:blue;
+    text-decoration: none;
+}
+.move-right{
+    display:flex;
+    justify-content: flex-end;
+  
+    margin-top:4rem;
+    
+}
+
+
+.make-vertical{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
