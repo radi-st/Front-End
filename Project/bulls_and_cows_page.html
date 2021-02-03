@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bulls_and_cows_page.css">
+    <link rel="stylesheet" href="./css/bulls_and_cows_page.css">
     <title>Bulls And Cows</title>
 </head>
 <body>
     <header>
         <nav class="nav-center">
-            <img class="dancing-cow" src="./dancing_cow_front.gif" alt="dancing_cow_front">
+            <img class="dancing-cow" src="./resources/dancing_cow_front.gif" alt="dancing_cow_front">
             <div class="navigation-transparent">
 
                 <a class="trasnparent-nav-box" href="./history_page.html">
@@ -25,11 +25,12 @@
                 </a>
 
             </div>
-            <img class="dancing-cow" src="./dancing_cow_back.gif" alt="dancing_cow_back">
+            <img class="dancing-cow" src="./resources/dancing_cow_back.gif" alt="dancing_cow_back">
         </nav>
     </header>
-    <div class="game-content">
-        <button id="begin-game">Begin Game</button>
+    <div class="game-content" id ="game-div">
+        <button class="start-game" onclick="startGameClicked(this)">Start Game</button>
     </div>
+    <script src="./js/bulls_and_cows_page.js"></script>
 </body>
 </html>
