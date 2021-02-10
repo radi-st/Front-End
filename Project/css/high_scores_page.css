@@ -1,0 +1,78 @@
+html
+{
+    height:100%;
+}
+
+body 
+{
+    background-color:rgb(98, 172, 62);
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.navigation-transparent
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 1rem ;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    max-width:100%;
+
+}
+.nav-center
+{
+    display: flex;
+    justify-content: center;
+    margin-top:1.5rem;
+}
+
+
+  
+a:visited, a:link
+{
+    text-decoration: none;
+    color:black;
+}
+
+.navigation-transparent a:hover 
+{
+    color:white;
+    background-color: black;
+}
+
+.navigation-transparent a:active
+{
+    color:black;
+    background-color: rgba(255,255,255,0.7);
+
+}
+.trasnparent-nav-box
+{
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px 50px 10px 50px;
+    margin-left:30px;
+    margin-right:30px;
+
+}
+.dancing-cow
+{
+    width:70px;
+    height:auto;
+}
+
+.scores
+{
+    background-color: rgba(255,255,255,0.8);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    color: black;
+}
+tr,td{
+    border: 2px solid black;
+}
