@@ -1,5 +1,5 @@
 "use strict";
-fetch("../resources/data.json").then(response => response.json())
+fetch("./resources/data.json").then(response => response.json())
     .then(processData)
     .catch((error) => {
         console.error('Error:', error);
