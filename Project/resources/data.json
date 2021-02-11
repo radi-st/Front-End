@@ -1,0 +1,30 @@
+[
+    {"number": 1234, "guesses": 30, "firstBullsCows": {"bulls": 1, "cows": 0}},
+    {"number": 5678, "guesses": 3, "firstBullsCows": {"bulls": 2, "cows": 1}},
+    {"number": 1257, "guesses": 10, "firstBullsCows": {"bulls": 3, "cows": 0}},
+    {"number": 9056, "guesses": 9, "firstBullsCows": {"bulls": 0, "cows": 1}},
+    {"number": 3456, "guesses": 13, "firstBullsCows": {"bulls": 1, "cows": 0}},
+    {"number": 9876, "guesses": 1, "firstBullsCows": {"bulls": 4, "cows": 0}},
+    {"number": 4267, "guesses": 14, "firstBullsCows": {"bulls": 0, "cows": 3}},
+    {"number": 7209, "guesses": 8, "firstBullsCows": {"bulls": 0, "cows": 2}},
+    {"number": 8904, "guesses": 15, "firstBullsCows": {"bulls": 1, "cows": 0}},
+    {"number": 2738, "guesses": 17, "firstBullsCows": {"bulls": 1, "cows": 1}},
+
+    {"number": 5467, "guesses": 15, "firstBullsCows": {"bulls": 0, "cows": 0}},
+    {"number": 6578, "guesses": 7, "firstBullsCows": {"bulls": 1, "cows": 1}},
+    {"number": 7908, "guesses": 10, "firstBullsCows": {"bulls": 1, "cows": 1}},
+    {"number": 3861, "guesses": 21, "firstBullsCows": {"bulls": 0, "cows": 0}},
+    {"number": 1245, "guesses": 13, "firstBullsCows": {"bulls": 2, "cows": 0}},
+    {"number": 6732, "guesses": 5, "firstBullsCows": {"bulls": 2, "cows": 2}},
+    {"number": 9187, "guesses": 11, "firstBullsCows": {"bulls": 0, "cows": 1}},
+    {"number": 5438, "guesses": 2, "firstBullsCows": {"bulls": 3, "cows": 0}},
+    {"number": 5079, "guesses": 9, "firstBullsCows": {"bulls": 2, "cows": 0}},
+    {"number": 2130, "guesses": 11, "firstBullsCows": {"bulls": 0, "cows": 1}},
+
+    {"number": 3148, "guesses": 14, "firstBullsCows": {"bulls": 1, "cows": 0}},
+    {"number": 9061, "guesses": 5, "firstBullsCows": {"bulls": 2, "cows": 1}},
+    {"number": 5170, "guesses": 9, "firstBullsCows": {"bulls": 2, "cows": 1}},
+    {"number": 5473, "guesses": 10, "firstBullsCows": {"bulls": 0, "cows": 1}},
+    {"number": 6079, "guesses": 19, "firstBullsCows": {"bulls": 1, "cows": 0}},
+    {"number": 3509, "guesses": 8, "firstBullsCows": {"bulls": 1, "cows": 1}}
+]

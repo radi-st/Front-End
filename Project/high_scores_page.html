@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/high_scores_page.css">
     <title>Previous Game Scores</title>
 </head>
+
 <body>
     <header>
         <nav class="nav-center">
-            <img class="dancing-cow" src="./resources/dancing_cow_front.gif" alt="dancing_cow_front">
             <div class="navigation-transparent">
+                <img class="dancing-cow" src="./resources/dancing_cow_front.gif" alt="dancing_cow_front">
 
                 <a class="trasnparent-nav-box" href="./history_page.html">
                     History Of The Game
                 </a>
 
-                <a class="trasnparent-nav-box" href="./bulls_and_cows_page.html">
+                <a class="trasnparent-nav-box" href="./index.html">
                     Bulls And Cows
                 </a>
 
                 <a class="trasnparent-nav-box" href="./high_scores_page.html">
                     Previous Game Scores
                 </a>
-
+                <img class="dancing-cow" src="./resources/dancing_cow_back.gif" alt="dancing_cow_back">
             </div>
-            <img class="dancing-cow" src="./resources/dancing_cow_back.gif" alt="dancing_cow_back">
         </nav>
     </header>
-    <div>
+    <div class="table-center">
         <table class="scores">
             <thead>
                 <tr>
-                    <th colspan="1">Number To Guess</th>
-                    <th colspan="1">Guesses</th>
-                    <th colspan="1">First Try Result</th>
+                    <th colspan="1" rowspan="2">Number To Guess</th>
+                    <th colspan="1" rowspan="2">Guesses</th>
+                    <th colspan="2" rowspan="1">First Try Result</th>
+                </tr>
+                <tr>
+                    <th colspan="1" rowspan="1">Bulls</th>
+                    <th colspan="1" rowspan="1">Cows</th>
                 </tr>
             </thead>
             <tbody id="t-body">
@@ -44,4 +49,5 @@
     </div>
     <script src="./js/high_scores_page.js"></script>
 </body>
+
 </html>
